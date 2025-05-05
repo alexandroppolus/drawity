@@ -2,9 +2,7 @@ define(['react', './item'],
 function (react, Item) {
 
     var urls = [
-        'images/1.png',
         'images/13.png',
-        'images/14.png',
         'images/12.jpeg'
     ];
 
