@@ -1,4 +1,4 @@
-define(['event-emitter', 'app/paint-inst'],
+define(['event-emitter', 'app/paint-inst', 'file-saver'],
 function(EventEmitter, paintInst) {
 
     var optionForTools = {
@@ -47,6 +47,13 @@ function(EventEmitter, paintInst) {
                 }
                 paintInst()[param](value);
             },
+
+            save: function(param) {
+                paintInst().toBlob((blob) => {
+                    saveAs(blob, 'drawityimage.' + param);
+                }, 'image/' + param);
+            },
+
             
             selectAll: function() {
                 paintInst().createObject('all');
