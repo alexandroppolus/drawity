@@ -3,7 +3,7 @@ Pure JavaScript canvas-based paint engine.
 
 This is only surface for drawing, which can handled mouse and keyboard events, and contains picture. With the simple API, you can manage this component, and easily create a user interface for it.
 
-<b><a href="http://ksp.herokuapp.com/drawity/demo.html" target="_blank">Demo</a></b> is example of user interface for Drawity. There are several buttons and drop-down lists that simply call the methods and handle events of the component.
+<b><a href="https://alexandroppolus.github.io/drawity/demo/" target="_blank">Demo</a></b> is example of user interface for Drawity. There are several buttons and drop-down lists that simply call the methods and handle events of the component.
 
 #### Features
  - Open image from file or URL
